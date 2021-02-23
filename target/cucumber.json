@@ -1,0 +1,476 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5795863300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Authentification - Whereit",
+        "description": "",
+        "id": "authentification---whereit;authentification---whereit",
+        "after": [
+          {
+            "result": {
+              "duration": 679213800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23862073600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Je me connecte à l\u0027application Whereit-test",
+            "match": {
+              "location": "AuthentificationStepDefinitions.jeMeConnecteÀLApplicationWhereitTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131443800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisis le username \"Superviseur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Superviseur",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinitions.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127133200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je saisis le password \"WeFind1204%\u003d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WeFind1204%\u003d",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinitions.jeSaisieLePassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3104511700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "je clique sur le bouton Valider",
+            "match": {
+              "location": "AuthentificationStepDefinitions.jeCliqueSurLeBoutonValider()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Redirection vers le compte admin",
+            "match": {
+              "location": "AuthentificationStepDefinitions.redirectionVersLeCompteAdmin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@valid-cnx"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5515964800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Authentification - Whereit",
+        "description": "",
+        "id": "authentification---whereit;authentification---whereit",
+        "after": [
+          {
+            "result": {
+              "duration": 681494100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15748161600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Je me connecte à l\u0027application Whereit-test",
+            "match": {
+              "location": "AuthentificationStepDefinitions.jeMeConnecteÀLApplicationWhereitTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151385200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Je saisis le username \"IVALIDUSERNAME\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IVALIDUSERNAME",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinitions.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123598700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Je saisis le password \"WeFind1204%\u003d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WeFind1204%\u003d",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinitions.jeSaisieLePassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3100124200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "je clique sur le bouton Valider",
+            "match": {
+              "location": "AuthentificationStepDefinitions.jeCliqueSurLeBoutonValider()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46906100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Je verifie le message d\u0027erreur \"Identifiant ou mot de passe incorrect\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Identifiant ou mot de passe incorrect",
+                  "offset": 32
+                }
+              ],
+              "location": "MultiUsersAuthentificationStepDefinition.je_verifie_le_message_d_erreur(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@invalid-username"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5282344700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Authentification - Whereit",
+        "description": "",
+        "id": "authentification---whereit;authentification---whereit",
+        "after": [
+          {
+            "result": {
+              "duration": 709750400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17930107700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Je me connecte à l\u0027application Whereit-test",
+            "match": {
+              "location": "AuthentificationStepDefinitions.jeMeConnecteÀLApplicationWhereitTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128833200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Je saisis le username \"Superviseur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Superviseur",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinitions.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125310100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Je saisis le password \"INVALIDPASSWORD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "INVALIDPASSWORD",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinitions.jeSaisieLePassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3074570800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "je clique sur le bouton Valider",
+            "match": {
+              "location": "AuthentificationStepDefinitions.jeCliqueSurLeBoutonValider()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47985800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Je verifie le message d\u0027erreur \"Identifiant ou mot de passe incorrect\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Identifiant ou mot de passe incorrect",
+                  "offset": 32
+                }
+              ],
+              "location": "MultiUsersAuthentificationStepDefinition.je_verifie_le_message_d_erreur(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@invalid-password"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5673068000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Authentification - Whereit",
+        "description": "",
+        "id": "authentification---whereit;authentification---whereit",
+        "after": [
+          {
+            "result": {
+              "duration": 715699100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21863726700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Je me connecte à l\u0027application Whereit-test",
+            "match": {
+              "location": "AuthentificationStepDefinitions.jeMeConnecteÀLApplicationWhereitTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185778700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Je saisis le username \"INVALIDUSERNAME\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "INVALIDUSERNAME",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinitions.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174827300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Je saisis le password \",INVALIDPASSWORD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": ",INVALIDPASSWORD",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinitions.jeSaisieLePassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3115148900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "je clique sur le bouton Valider",
+            "match": {
+              "location": "AuthentificationStepDefinitions.jeCliqueSurLeBoutonValider()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58054000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Je verifie le message d\u0027erreur \"Identifiant ou mot de passe incorrect\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Identifiant ou mot de passe incorrect",
+                  "offset": 32
+                }
+              ],
+              "location": "MultiUsersAuthentificationStepDefinition.je_verifie_le_message_d_erreur(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@ivalid-pw-and-invalid-username"
+          }
+        ]
+      }
+    ],
+    "name": "Authentification - Whereit",
+    "description": "ETQ utilisateur je souhaite m\u0027authentifier sur l application Whereit",
+    "id": "authentification---whereit",
+    "keyword": "Feature",
+    "uri": "authentification/Authentification.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@connexion"
+      }
+    ]
+  }
+]

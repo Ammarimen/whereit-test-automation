@@ -1,0 +1,16 @@
+com\e2eTests\whereitTest\utils\ChromeDriverManager.class
+com\e2eTests\whereitTest\utils\AbstractPage.class
+com\e2eTests\whereitTest\authentification\pages\MultiUsersAuthentificationPage.class
+com\e2eTests\whereitTest\utils\DriverManagerFactory$1.class
+com\e2eTests\whereitTest\utils\EdgeDriverManager.class
+com\e2eTests\whereitTest\utils\Setup.class
+com\e2eTests\whereitTest\TestRunner.class
+com\e2eTests\whereitTest\utils\DriverManagerFactory.class
+com\e2eTests\whereitTest\utils\FirefoxDriverManager.class
+com\e2eTests\whereitTest\utils\DriverType.class
+com\e2eTests\whereitTest\utils\InternetExplorerDriver.class
+com\e2eTests\whereitTest\utils\DriverManager.class
+com\e2eTests\whereitTest\authentification\pages\AuthentificationPage.class
+com\e2eTests\whereitTest\authentification\stepDefinitions\MultiUsersAuthentificationStepDefinition.class
+com\e2eTests\whereitTest\utils\CommonMethods.class
+com\e2eTests\whereitTest\authentification\stepDefinitions\AuthentificationStepDefinitions.class
